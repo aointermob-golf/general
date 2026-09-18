@@ -6,6 +6,7 @@ excerpt: Every change initiative encounters friction. That's not a problem — i
   a given. The mistake most organisations make isn't that they experience friction,
   it's that they fail to diagnose what kind of friction they're actually dealing with.
   Resistance and sabotage are not the same thing.
+  image: /assets/blog/they-re-not-the-same-resistance-sabotage-and-the-accountability-gap.png
 ---
 
 Every change initiative encounters friction. That's not a problem — it's a given. The mistake most organisations make isn't that they experience friction, it's that they fail to diagnose what kind of friction they're actually dealing with. Resistance and sabotage are not the same thing. Treating them as if they are is one of the most costly errors a change leader can make — and it's far more common than anyone in the room usually wants to admit.
