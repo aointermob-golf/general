@@ -257,6 +257,15 @@ a {
   font-weight: 600;
 }
 
+.post-thumb {
+  width: 100%;
+  max-height: 280px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
 /* Single post */
 
 .post-container {
@@ -271,6 +280,14 @@ a {
 
 .post-back {
   margin: 0 0 0.5rem;
+}
+
+.post-hero {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 1.25rem;
 }
 
 .post-body {

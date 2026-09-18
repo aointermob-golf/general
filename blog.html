@@ -12,6 +12,9 @@ permalink: /blog/
     <div class="post-list">
       {% for post in site.posts %}
       <article class="post-list-item">
+        {% if post.image %}
+        <a href="{{ post.url | relative_url }}"><img class="post-thumb" src="{{ post.image | relative_url }}" alt="" /></a>
+        {% endif %}
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
         <p class="post-meta">
           {{ post.date | date: "%-d %B %Y" }}
