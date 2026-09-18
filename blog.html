@@ -1,0 +1,26 @@
+---
+layout: default
+title: Blog
+description: Thoughts on change management, leadership, and technology from Andrew O'Shea.
+permalink: /blog/
+---
+<section class="section">
+  <div class="container">
+    <h1>Blog</h1>
+    <p class="blog-intro">Thoughts on change management, leadership, and technology &mdash; from the field, not the framework.</p>
+
+    <div class="post-list">
+      {% for post in site.posts %}
+      <article class="post-list-item">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">
+          {{ post.date | date: "%-d %B %Y" }}
+          {% if post.read_time %} · {{ post.read_time }} min read{% endif %}
+        </p>
+        <p class="post-excerpt">{{ post.excerpt }}</p>
+        <a class="post-readmore" href="{{ post.url | relative_url }}">Read more &rarr;</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

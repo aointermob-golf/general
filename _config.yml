@@ -1,0 +1,21 @@
+title: Change Blazers
+description: My website for all things related to what I do and what I can offer.
+author: Andrew O'Shea
+url: "https://changeblazers.au"
+
+markdown: kramdown
+permalink: /blog/:slug/
+
+collections:
+  posts:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - README.md
